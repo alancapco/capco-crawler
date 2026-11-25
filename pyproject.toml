@@ -1,0 +1,10 @@
+[project]
+name = "capco-crawler"
+version = "0.1.0"
+description = "Crawl Capco Intelligence articles and build a Neo4j knowledge graph"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "firecrawl-py>=4.45.1",
+    "requests>=2.34.2",
+]

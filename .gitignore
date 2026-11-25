@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+
+# Secrets and local runtime
+.env
+.run/
+
+# macOS
+.DS_Store
+
+# Upstream llm-graph-builder (cloned by ./graph.sh setup)
+vendor/
+
+# Crawled corpus and graph ingest progress (move with migration scripts)
+capco_articles/
+
+# Neo4j / articles migration bundles
+migration-export/
+*.dump
